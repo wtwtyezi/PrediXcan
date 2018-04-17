@@ -223,7 +223,8 @@ def main():
             "FILTER_VAL", FILTER_VAL,
             "FILTER_COLUMN", MFILTER,
             "TEST_TYPE", TEST_TYPE,
-            "OUT", ASSOC_FILE])
+            "OUT", ASSOC_FILE], 
+            shell=True)
 
 
 if __name__ == '__main__':
